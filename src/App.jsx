@@ -1,13 +1,20 @@
-import Header from "./components/header";
-import Introduction from "./components/introduction";
+import { useStore } from "./store/zuntand";
+import Introduction from "./components/Introduction";
+import About from "./components/About";
+import Services from "./components/Services";
+import Reviews from "./components/Reviews";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
-function App() {
+export default function LandingPage() {
   return (
-    <main className="min-h-screen">
-      <Header />
+    <div className="w-full h-screen overflow-x-hidden">
+      <Navbar />
       <Introduction />
-    </main>
+      <About />
+      <Services />
+      <Reviews />
+      <Contact />
+    </div>
   );
 }
-
-export default App;
