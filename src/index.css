@@ -4,8 +4,9 @@ html {
 
 @import "tailwindcss";
 
-@layer utilities {
-  .bg-header-cover {
-    background-image: url("/header-cover.png");
-  }
+.bg-header-mobile {
+  background-image: url("/assets/images/header-mobile.png");
+}
+.bg-header-desktop {
+  background-image: url("/assets/images/header-desktop.jpg");
 }

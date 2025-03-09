@@ -1,4 +1,3 @@
-import { useStore } from "./store/zuntand";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -8,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 export default function LandingPage() {
   return (
-    <div className="w-full h-screen overflow-x-hidden">
+    <div className="w-full h-screen">
       <Navbar />
       <Introduction />
       <About />
